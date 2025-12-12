@@ -48,23 +48,22 @@ The dataset uses 7 gas sensors:
 ## 📁 File Structure
 
 ```
-cabai_dataset_final.zip
-├── cabai_hijau_besar_2_modified.csv
-├── cabai_hijau_besar_3_modified.csv
-├── cabai_hijau_besar_4_modified.csv
-├── cabai_kecil_hijau_1_modified.csv
-├── cabai_kecil_hijau_2_modified.csv
-├── cabai_kecil_hijau_3_modified.csv
-├── cabai_kecil_hijau_4_modified.csv
-├── cabai_kecil_merah_1_modified.csv
-├── cabai_kecil_merah_2_modified.csv
-├── cabai_kecil_merah_3_modified.csv
-├── cabai_kecil_merah_4_modified.csv
-├── cabai_merah_besar_1_modified.csv
-├── cabai_merah_besar_2_modified.csv
-├── cabai_merah_besar_3_modified.csv
-├── cabai_merah_besar_4_modified.csv
-└── README.md (this file)
+project/
+│
+├── backend/ # High-performance Rust backend
+│ ├── src/
+│ └── Cargo.toml
+│
+├── frontend/ # Python GUI, visualizer, and file loader
+│ ├── frontend.py
+│ ├── visualization/
+│ └── utils/
+│
+├── dataset/ # Sample CSV files
+│ └── raw/
+│ └── normalized/
+│
+└── Readme.md # Documentation
 ```
 
 ---
